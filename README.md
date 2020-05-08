@@ -10,6 +10,10 @@
 Additional documentation can be found at the [Marlin Home Page](http://marlinfw.org/).
 Please let us know if Marlin misbehaves in any way. Volunteers are standing by!
 
+## About this fork
+
+Firmware for my Taz 5 with TMC2209, BLTouch, Titan Aero toolhead, BTT TFT35 3.0 dual mode touch screen with a 32 bit SKR 1.4 Turbo board upgrade. This board was chosen over an Archim board due to the low cost and high availability. This build has yet to be tested but plans are to use Sensorless homing and implement many quality of life improvements in the firmware such as Linear Advance, Junction Deviation, Advanced Pause, Unified Bed Leveling with BLTouch, Babystepping, TMC Debug, and many options in LCD menu enabled. Currently in the process of designing a new enclosure to house the board with accomodations for LM2596 DC-DC convertors, Auber 100A DC-DC Solid State Relay for controlling the bed without taxing the board (possible AC bed upgrade in the future), a big SSR external heatsink, Relay board and externally mounted Raspberry Pi for Octoprint. The controller box that comes with the Taz 5 doesn't accomodate a RAMPS-style board unfortunately so everything will need to be re-crimped and rewired, going to build this as soon as the design is done and printed.
+
 ## Marlin 2.0
 
 Marlin 2.0 takes this popular RepRap firmware to the next level by adding support for much faster 32-bit and ARM-based boards while improving support for 8-bit AVR boards. Read about Marlin's decision to use a "Hardware Abstraction Layer" below.
